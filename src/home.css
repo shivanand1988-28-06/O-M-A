@@ -1,0 +1,222 @@
+
+.hero{
+    display : flex ;
+    width : 100% ;
+    height : 100vh ;
+    align-items: center;
+    justify-content: center;
+  } 
+  .hero-logo{
+    width : "100px" ;
+    height : "100px" ;
+  }
+  
+  nav{
+    width : 100%; 
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav .hero-logo{
+    width : 80px;
+  
+  }
+  nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 100px;
+    
+  
+  } 
+  nav ul li a{
+    text-decoration:wavy; 
+    color : #f5eded ;
+    font-size: 30px;
+    font-weight: 200 ;
+  }
+  
+  .content {
+    
+    text-align: center;
+  }
+  
+  .content h1{
+    font-size: 70px;
+    color: #f7eaea;
+    font-weight: 600;
+  }
+  .content a{
+    text-decoration: none;
+    display: inline-block;
+    color: #f8f3f3de;
+    font-size: 24px;
+    border: 2px solid #faf6f6;
+    padding : 14px 70px ;
+    border-radius: 50px;
+    margin-top: 20px;
+  }
+  .hero-video{
+     position: absolute ;
+     right: 0;
+     bottom: 0;
+     z-index: -1 ;
+  
+     
+  }
+  @media (min-aspect-ratio :16/9){
+    .hero-video{
+      width : 100% ;
+      height : auto ;
+    }
+  }
+    @media (max-aspect-ratio :16/9){
+      .hero-video{
+        width : auto ;
+        height :  100% ;
+      }
+  }
+  
+  .home{
+    width: 100%;
+    
+  }
+  .middle{
+    display:flex ;
+    
+  margin-top: 30px;
+     }
+  
+  
+  .headingone{
+    background-image: url("./assets/pngtree-blue-technology-web-banner-image_122453.jpg");
+    padding-top: 70px;
+    text-align: center ;
+    font-size: 18px ;
+    font-weight: 100;
+    color: #f7eaea;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  
+  }
+  
+  .middle-second {
+    display:flex;
+    margin-top : 70px
+  }
+  .middle-second>div{
+   padding : 20px ;
+  }
+  .middle-button {
+    border-top-left-radius:150px;
+    border-bottom-left-radius : 150px ;
+    width : 600px ;
+    height : 400px ; 
+    background:url("./assets/omc-6.jpg") ;
+  }
+  .middle-buttontwo{
+    border-radius: 7px;
+    background-color: rgb(94, 156, 236);
+    color: antiquewhite;
+    width : 400px ;
+    height : 30px ;
+    margin : 70px ;
+  }
+  .middle-buttontwo:hover{
+    color: rgb(10, 9, 9);
+    background-color: rgba(39, 115, 230, 0.829);
+  }
+  
+  
+  
+  .middle {
+    display:flex;
+    background-color: white;
+    margin-top : 70px
+  }
+  .middle>div{
+   padding : 20px ;
+  }
+  .middle-button-three {
+    border-top-right-radius:150px;
+    border-bottom-right-radius : 150px ;
+    width : 600px ;
+    height : 400px ; 
+    background:url("./assets/pngtree-blue-technology-web-banner-image_122453.jpg") ;
+  }
+  .middle-button-four{
+    border-radius: 7px;
+    background-color: rgb(83, 169, 219);
+    color: antiquewhite;
+    width : 400px ;
+    height : 30px ;
+    margin : 70px ;
+  }
+  .middle-button-four:hover{
+    color: rgb(10, 9, 9);
+    background-color: rgba(8, 74, 196, 0.829);
+  }
+  
+  .middle-third {
+    display:flex;
+    background-color:white;
+    margin-top : 70px
+  }
+  .middle-third>div{
+   padding : 20px ;
+  }
+  .middle-button-five {
+    border-top-right-radius:150px;
+    border-bottom-right-radius : 150px ;
+    width : 600px ;
+    height : 400px ; 
+    background:url("./assets/online-marketing-1246457_640.jpg") ;
+  }
+  .middle-button-six{
+    border-radius: 7px;
+    background-color: rgb(83, 169, 219);
+    color: antiquewhite;
+    width : 400px ;
+    height : 30px ;
+    margin : 70px ;
+  }
+  .middle-button-six:hover{
+    color: rgb(10, 9, 9);
+    background-color: rgba(8, 74, 196, 0.829);
+  }
+  
+  .footer{
+    width : 1345px ;
+    height: 400px;
+    background-color: rgba(1, 10, 34, 0.897);
+  }
+  .footer-omc{
+    font-family:fantasy;
+    font-size: 26px;
+    color: bisque;
+    padding-left : 100px ;
+    padding-top : 70px
+  }
+  .footer-slog{
+    font-family:monospace;
+    font-size: 20px;
+    color: white;
+    padding-left: 100px;
+    padding-top: 30px;
+  }
+  .footer-links{
+    color:white ;
+    padding-left: 950px;
+    font-size: 50px;
+    
+  }.footer-alllinks>div{
+   padding-left: 1000px;
+   color : white
+  }
+  
+  
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;

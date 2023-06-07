@@ -1,0 +1,34 @@
+.signup{
+    display : flex ;
+    margin-top: 20px;
+    padding-left: 50px;
+}
+.signup.form{
+
+  float:right;
+   padding : 00px 20px 00px 20px ;
+
+}
+.signup.form.img{
+    float: left ;
+}
+.signup.top{
+    display : flex ;
+    
+}
+.signup.top>div{
+    width : 50% ;
+    margin-left: 150px ;
+}
+.heading{
+    font-size: 25px 
+}
+
+
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
